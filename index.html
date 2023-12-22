@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="/file/java/script.js"></script>
+    <script src="/file/java/navbar.js"></script>
+    <link rel="stylesheet" href="/file/css/style.css" />
+  </head>
+  <body>
+    <div class="all-section">
+      <div class="all">
+        <section class="section">
+          <div class="container">
+            <h1 onchange="displaytime()" id="hour">00</h1>
+            <h1 id="">:</h1>
+            <h1 id="mint">00</h1>
+            <h1 id="">:</h1>
+            <h1 id="sec">00</h1>
+            <h1 id="">:</h1>
+            <h1 id="session">AM/PM</h1>
+            
+          </div>
+          <button id="navbar" onclick="navbar()">></button>
+          <div class="option">
+            <div class="aa">
+              <img class="img1" src="/stopwatch-7503_256.gif" alt="" />
+              <div id="timer">10</div>
+            </div>
+
+            <div class="ff">
+              <input
+                type="number"
+                placeholder="Hours"
+                id="hourInput"
+                class="colume"
+              />
+
+              <input
+                type="number"
+                placeholder="Minutes"
+                id="minuteInput"
+                class="colume"
+              />
+
+              <input
+                type="number"
+                placeholder="Second"
+                id="secInput"
+                class="colume"
+              />
+            </div>
+          </div>
+          <button class="btn" type="submit" onclick="setAudio()">
+            Alarm Set
+          </button>
+          <br />
+
+          <audio id="audioplayer" src="/videoplayback.weba" loop></audio>
+        </section>
+
+        <div class="dd" id="navbarrr" class="ddd">
+          <div id="btn">
+            <img
+              class="snoozeimg"
+              src="/snooze-icon-editable-outline-vector-30419161-removebg-preview (1).png"
+              alt=""
+            />
+            <button type="submit" onclick="snoozebtn()" id="snooze">
+              snooze
+            </button>
+
+            <img
+              class="cancelimg"
+              src="/cancelll-removebg-preview.png"
+              alt=""
+            />
+            <button
+              type="submit"
+              class="cancelbtn"
+              onclick="Cancel()"
+              id="Cancel"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio src="/sound.m4a" id="1"></audio>
+    
+  </body>
+</html>

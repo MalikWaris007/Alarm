@@ -1,0 +1,113 @@
+body {
+  background-color: aqua;
+}
+.container {
+  display: flex;
+  color: red;
+  font-size: 30px;
+  padding-left: 30px;
+  position: relative;
+  bottom: 30px;
+  text-shadow: 0 0 20px rgb(68, 22, 235), 0 0 40px rgb(235, 235, 245);
+}
+.colume {
+  border: 2px solid rgb(73, 67, 67);
+  padding: 6px 12px;
+  width: 60px;
+  margin-top: 12px;
+}
+.section {
+  padding: 12px 20px;
+  background-color: #fff;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  height: 440px;
+}
+.img1 {
+  position: relative;
+  bottom: 70px;
+}
+.ff {
+  display: flex;
+  gap: 12px;
+  position: relative;
+  bottom: 60px;
+}
+.btn {
+  padding: 12px 30px;
+  margin-top: 12px;
+  border: none;
+  background-color: aqua;
+  padding: 12px 110px;
+  position: relative;
+  bottom: 60px;
+}
+.all {
+  display: flex;
+}
+img {
+  height: 260px;
+  width: 260px;
+}
+.dd {
+  width: 150px;
+  height: 460px;
+  border: 2px solid #fff;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: none;
+}
+.ddd{
+    display: block;
+}
+.all-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 180px;
+}
+.navbarbtn {
+  position: relative;
+  bottom: 240px;
+}
+#snooze {
+  padding: 6px 35px;
+  margin-left: 10px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  position: relative;
+  bottom: 20px;
+}
+#Cancel {
+  padding: 6px 35px;
+  margin-left: 10px;
+}
+.aa {
+  display: flex;
+}
+#timer{
+  position: relative;
+  top: 130px;
+  font-size: 50px;
+  font-weight: 600;
+}
+.cancelimg {
+  width: 120px;
+  height: 60px;
+  position: relative;
+  bottom: 30px;
+}
+.snoozeimg {
+  width: 60px;
+  height: 60px;
+  margin-left: 30px;
+}
+.cancelbtn {
+  position: relative;
+  bottom: 30px;
+}
+#navbar{
+    position: relative;
+    bottom: 120px;
+    left: 270px;
+}
